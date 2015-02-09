@@ -1,5 +1,7 @@
 <#import "layout.ftl" as layout>
 <@layout.mainLayout>
 
-<h1>Hello</h1>
+<button class="btn-primary">
+    Show my groups
+</button>
 </@layout.mainLayout>

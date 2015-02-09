@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>${title} - OSO Traffic Center Statistieken</title>
+    <title>Sample Voot Client</title>
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,13 +34,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span class="navbar-brand">OSO Statistieken</span>
+            <span class="navbar-brand">Voot Client</span>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="${(navActive == 'overzicht')? string('active','')}"><a href="/statistieken">Overzicht</a></li>
-                <li class="${(navActive == 'school')? string('active','')}"><a href="/statistieken/school">Per school</a></li>
-                <li class="${(navActive == 'overdracht')? string('active','')}"><a href="/statistieken/overdracht">Overdrachten</a></li>
+                <li><a href="/">Home</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
